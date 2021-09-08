@@ -1,4 +1,4 @@
-# welcome
+# Welcome to Predictive Analytics
 
 ![https://www.plutora.com/blog/predictive-modeling](predictive_modeling_diagram.png)
 
@@ -27,7 +27,6 @@ Examples of the types of questions one would like to predict are:
 
 That indicates a desire to know the future, and to act upon this feature. To make a decision, we either have an intuition or we base on an information. Where a human cannot process information at large, a machine can and big companies like Microsoft, Google, WebMM, develop tools that can provide accurate estimations every day.
 
-
 ## Review Terminology
 
 - The terms **sample**, **data point**, **observation**, or **instance** refer to a single, independent unit of data, such as a customer, patient, or compound. The term sample can also refer to a subset of data points, such as the training set sample. The text will clarify the appropriate context when this term is used.
@@ -43,6 +42,13 @@ That indicates a desire to know the future, and to act upon this feature. To mak
 ### Statistics
 
 Statistics is the science of collecting data and analyzing them to infer proportions (sample) that are representative of the population. In other words, statistics is interpreting data in order to make predictions for the population.
+
+[Two main statistical methods](https://statistics.laerd.com/statistical-guides/descriptive-inferential-statistics.php) are used in data analysis: 
+
+[Descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics), which summarize data from a sample using indexes such as the mean or standard deviation. Descriptive statistics are most often concerned with two sets of properties of a distribution (sample or population): central tendency (or location) seeks to characterize the distribution's central or typical value, while dispersion (or variability) characterizes the extent to which members of the distribution depart from its center and each other. 
+
+[Inferential statistics](https://en.wikipedia.org/wiki/Statistical_inference), which draw conclusions from data that are subject to random variation (e.g., observational errors, sampling variation). Inferences on mathematical statistics are made under the framework of probability theory, which deals with the analysis of random phenomena.
+
 
 ### Machine Learning
 
