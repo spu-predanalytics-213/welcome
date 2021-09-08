@@ -49,6 +49,18 @@ Upon successful completion of this course, students will be able to:
 | 10   | Natural Language Processing          |
 | 11   | Final Exam                           |
 
+## Recommended Books
+
+[Applied Predictive Modeling](http://appliedpredictivemodeling.com/about) is a book on the practice of modeling when accuracy is the primary goal.
+
+``` yml
+Title: Applied Predictive Modeling
+Author(s): Max Kuhn, Kjell Johnson
+Release date: 2018
+Publisher(s): Springer
+ISBN: 978-1461468486
+```
+
 ## Assignments 
 
 | Assignment              | Weight     |
