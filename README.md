@@ -106,6 +106,20 @@ Data visualization gives crutial understanding of machine learning models and to
 
 And many many more for [scientific visualization in PyPI](https://pypi.org/search/?q=&o=-created&c=Topic+%3A%3A+Scientific%2FEngineering+%3A%3A+Visualization).
 
+## Todo List
+
+<!-- A list of items for student to follow -->
+
+You may receive assignments that uses GitHub's autograding feature using unit testing. This is done through [GitHub Actions](https://docs.github.com/en/actions) and writing [unit tests](https://realpython.com/python-testing/). To get use to how this works, we will make a practice run.
+
+1. Make a python file with name `my_code.py`.
+2. Create at least 2 functions for practice.
+3. Check out [test_my_code.py](test_my_code.py) file. This file will test your code once you upload to GitHub!
+4. Upload to GitHub once you are done.
+5. Go to your repository and check `Actions` tab. After every commit you make, GitHub runs `test_my_code.py` file to validate if your code is satisfactory. See example of an output in my [assignment-0-metinsenturk/actions](https://github.com/spu-bigdataanalytics-212/assignment-0-metinsenturk/actions).
+6. Click the green button at the top of the repo, and do `Download ZIP`.
+7. As a practice, **download your repository** and **upload it to blackboard** as your first assignment!
+8. That's it.
 
 ## References
 
