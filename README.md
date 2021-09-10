@@ -2,42 +2,30 @@
 
 ![https://www.plutora.com/blog/predictive-modeling](predictive_modeling_diagram.png)
 
-## Introduction
+Predictive modeling is creating a mathematical model to accurately predict future events based on previous or historical data. This course utilizes and hopes to achieve and understanding on both mathematical and technical concepts behind the algorithms used to make predictions.
 
-Predictive modeling is creating a mathematical model to accurately predict future events based on previous or historical data.
+## Table of Contents
 
-There are many successful use cases of predictive analytics. 
-
-[Forbes magazine](https://www.forbes.com/sites/zinamoukheiber/2014/02/19/ibm-and-epic-apply-predictive-analytics-to-electronic-health-records/) reports that the use of data mining and predictive analytics has helped to identify patients who have been of the greatest risk of developing congestive heart failure. IBM collected 3 years of data pertaining to 350,000 patients, and including measurements on over 200 factors, including things such as blood pressure, weight, and drugs prescribed. Using predictive analytics, IBM was able to identify the 8500 patients most at risk of dying of congestive heart failure within 1 year.
-
-[Dell](https://www.wsj.com/articles/BL-CIOB-1283) was interested in improving the productivity of its sales workforce. It therefore turned to data mining and predictive analytics to analyze its database of potential customers, in order to identify the most likely respondents. Researching the social network activity of potential leads, using LinkedIn and other sites, provided a richer amount of information about the potential customers, thereby allowing Dell to develop more personalized sales pitches to their clients. The number of prospects that needed to be contacted was cut by 50%, leaving only the most promising prospects, leading to a near doubling of the productivity and efficiency of the sales workforce, with a similar increase in
-revenue for Dell.
-
-Examples of the types of questions one would like to predict are:
-
-- How many copies will this book sell?
-- Will this customer move their business to a different company?
-- How much will my house sell for in the current market?
-- Does a patient have a specific disease?
-- Based on past choices, which movies will interest this viewer?
-- Should I sell this stock?
-- Which people should we match in our online dating service?
-- Is an e-mail spam?
-- Will this patient respond to this therapy?
-
-That indicates a desire to know the future, and to act upon this feature. To make a decision, we either have an intuition or we base on an information. Where a human cannot process information at large, a machine can and big companies like Microsoft, Google, WebMM, develop tools that can provide accurate estimations every day.
-
-## Review Terminology
-
-- The terms **sample**, **data point**, **observation**, or **instance** refer to a single, independent unit of data, such as a customer, patient, or compound. The term sample can also refer to a subset of data points, such as the training set sample. The text will clarify the appropriate context when this term is used.
-- The **training set** consists of the data used to develop models while the test or validation sets are used solely for evaluating the performance of a final set of candidate models.
-- The **predictors**, **independent variables**, **attributes**, or **descriptors** are the data used as input for the prediction equation.
-- **Outcome**, **dependent variable**, **target**, **class**, or **response** refer to the outcome event or quantity that is being predicted.
-- **Continuous data** have natural, numeric scales. Blood pressure, the cost of an item, or the number of bathrooms are all continuous. In the last case, the counts cannot be a fractional number, but is still treated as continuous data.
-- **Categorical data**, otherwise known as nominal, attribute, or discrete data, take on specific values that have no scale. Credit status (“good” or “bad”) or color (“red,”“blue,” etc.) are examples of these data.
-- **Model building**, **model training**, and **parameter estimation** all refer to the process of using data to determine values of model equations.
+- [Welcome to Predictive Analytics](#welcome-to-predictive-analytics)
+  - [Table of Contents](#table-of-contents)
+  - [Tools and Knowledge](#tools-and-knowledge)
+    - [Statistics](#statistics)
+    - [Machine Learning](#machine-learning)
+    - [Git](#git)
+    - [Code Sharing Platforms (GitHub)](#code-sharing-platforms-github)
+    - [Development Tools (IDEs)](#development-tools-ides)
+    - [Jupyter Notebooks & Lab](#jupyter-notebooks--lab)
+    - [Google Colab](#google-colab)
+    - [Python](#python)
+    - [Numpy, Pandas](#numpy-pandas)
+    - [Visualizations](#visualizations)
+  - [Todo List](#todo-list)
+  - [References](#references)
+  - [Conclusion](#conclusion)
 
 ## Tools and Knowledge
+
+Things you will need to get yourself familiar with. Following is the stuff you need to be prepared for to fully cooperate on this class.
 
 ### Statistics
 
@@ -49,16 +37,94 @@ Statistics is the science of collecting data and analyzing them to infer proport
 
 [Inferential statistics](https://en.wikipedia.org/wiki/Statistical_inference), which draw conclusions from data that are subject to random variation (e.g., observational errors, sampling variation). Inferences on mathematical statistics are made under the framework of probability theory, which deals with the analysis of random phenomena.
 
-
 ### Machine Learning
 
-[Arthur Samuel](https://ieeexplore.ieee.org/abstract/document/5392560) coined the term `Machine Learning` in 1959 with the definition:
+Arthur Samuel coined the term `Machine Learning` [in 1959 with the definition](https://ieeexplore.ieee.org/abstract/document/5392560):
 
 > Computers the ability to learn without being explicitly programmed. ~ Arthur Samuel
 
-As said, nowadays the definition hasn't changed much. It is the study of computer science algorithms that can improve automatically through experience and by the use of data.
+As said, nowadays the definition hasn't changed much. It is the study of computer science algorithms that can improve automatically through experience and by the use of data. Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.
 
-Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.
+### Git
+
+<!-- The version control system -->
+
+The assignments are stored and shared using [GitHub](https://github.com/) and we use [Git](https://git-scm.com/) to be able to version and interact with our repositories.
+
+**Make sure** to install Git on your local computer.
+
+My recommendation is go over the following stuff.
+
+- Your first steps towards Git, [Learn to use Git](https://guides.github.com/activities/hello-world/)
+- Learn GitHub and Git using GitHub Lab, [Github Lab](https://lab.github.com/)
+- Useful to understand how Git works, [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- Useful to understand how GitHub works, [Github Flow](https://enterprise.github.com/downloads/en/-github-flow-cheatsheet.pdf)
+- Useful for your README.md files, [Github Flawored Markdown Cheat Sheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
+- Protips from Data Scientist at GitHub, [Tips, tricks, hacks, and secrets from Alyson La](https://github.blog/2020-04-23-github-protips-tips-tricks-hacks-and-secrets-from-alyson-la/)
+- A simple git learning experience with a desktop app, [Git-it (Desktop App)](https://github.com/jlord/git-it-electron)
+- A set of tutorials, [Get Git Right by Atlassian](https://www.atlassian.com/git)
+- Overwhelmed by git command line, what about an app? [Sourcetree](https://www.sourcetreeapp.com/)
+
+### Code Sharing Platforms (GitHub)
+
+<!-- GitHub in brief -->
+
+[GitHub](https://github.com/) is how people build software. It has over 100 million repositories hosted in its platform as of August 2019, and its an essential tool for collaboration and sharing.
+
+**Make sure** to create a GitHub account. Go to [https://github.com/join](https://github.com/join).
+
+- [Introduction to GitHub, by GitHub](https://lab.github.com/githubtraining/introduction-to-github)
+- [An Introduction to GitHub by US Government!](https://digital.gov/resources/an-introduction-github/)
+- [A Dead Simple Intro to GitHub for the Non-Technical](https://medium.com/crowdbotics/a-dead-simple-intro-to-github-for-the-non-technical-f9d56410a856)
+  
+### Development Tools (IDEs)
+
+<!-- VSCode and advantages -->
+
+My favorite, bittersweet tool, [Visual Studio Code](https://code.visualstudio.com/), use it and you'll love it!
+
+**Make sure** to install VS Code to your computer. Add the following extensions as well.
+  - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) a new language server from Microsoft.
+  - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) to enable intellisense, environment management, etc.
+  - [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) for getting used to Markdown syntax.
+  - [Live Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) to interact with each other.
+
+Even tough are a lot of online resoources available to make the most out of VSCode, recently Microsoft introduced a new set of articles to [learn to code with Visual Studio Code](https://code.visualstudio.com/learn). **Utilize this** to get yourself familiar with VS Code and understand why tools like VS Code are much better than just a text editor.
+
+There are alternatives of course, you are welcome to use those as well. The point is an IDE will make your life much easier if you choose to use one!
+
+Alternatives
+
+- [Atom](https://atom.io/)
+- [Notepad++](https://notepad-plus-plus.org/) (I use it as an advanced Notepad, rather than an IDE) 
+- [Sublime](https://www.sublimetext.com/)
+- And many, many more over [here](https://www.google.com/search?q=integrated+development+editor).
+
+Development tools from your browser!
+
+- [Your instant dev environment in GitHub](https://github.com/features/codespaces)
+- [An instant IDE and prototyping tool for rapid web development.](https://codesandbox.io/)
+
+### Jupyter Notebooks & Lab
+
+<!-- Interactive local development with Jupyter Notebooks. -->
+
+Another code editor you can use is [Jupyter Notebooks](https://jupyter.org/). The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+
+**Make sure** jupyter is installed on your computer and in your PATH. 
+
+To start jupyter you will type in terminal.
+
+``` sh
+jupyter notebook
+```
+
+### Google Colab
+
+Colaboratory is built on top of Jupyter Notebook. 
+
+- [basic_features_overview.ipynb](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
+- [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
 
 ### Python
 
@@ -75,6 +141,16 @@ def fib(n):
 fib(1000)
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
 ```
+
+In this course, we use Python. You can use either [standard python](https://www.python.org/), or [anaconda distribution](https://www.anaconda.com/distribution/), up to your preference. 
+
+**Make sure** python is installed and in your PATH.
+
+It is better to know Python syntax, even tough we will be covering it in the class.
+
+- Learn the syntax, [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
+- Online Tool to Learn Python, [learnpython.org](https://www.learnpython.org/)
+- A rather broader place to learn Python, [Geek for Geeks](https://www.geeksforgeeks.org/python-programming-language/)
 
 ### Numpy, Pandas
 
@@ -101,6 +177,8 @@ s2=pd.Series(arr)           #create pandas series s2
 ```
 
 Follow this [amazing introductory tutorial ](https://towardsdatascience.com/top-python-libraries-numpy-pandas-8299b567d955)on numpy and pandas modules.
+
+**Make sure** both of these libraries installed on your site packages.
 
 ### Visualizations
 
