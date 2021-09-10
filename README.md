@@ -20,7 +20,6 @@ Predictive modeling is creating a mathematical model to accurately predict futur
     - [Numpy, Pandas](#numpy-pandas)
     - [Visualizations](#visualizations)
   - [Todo List](#todo-list)
-  - [References](#references)
   - [Conclusion](#conclusion)
 
 ## Tools and Knowledge
@@ -205,14 +204,6 @@ You may receive assignments that uses GitHub's autograding feature using unit te
 6. Click the green button at the top of the repo, and do `Download ZIP`.
 7. As a practice, **download your repository** and **upload it to blackboard** as your first assignment!
 8. That's it.
-
-## References
-
-- [Applied Predictive Modeling](http://appliedpredictivemodeling.com/) is a book on the practice of modeling when accuracy is the primary goal written by Max Kuhn, Kjell Johnson
-- [Descriptive Statistics](https://towardsdatascience.com/descriptive-statistics-f2beeaf7a8df)
-- IBM and Epic Apply Predictive Analytics to Electronic Health Records, by Zina
-Moukheiber, Forbes magazine, February 19, 2014.
-- How Dell Predicts Which Customers Are Most Likely to Buy, by Rachael King, CIO Journal, Wall Street Journal, December 5, 2012.
 
 ## Conclusion
 
